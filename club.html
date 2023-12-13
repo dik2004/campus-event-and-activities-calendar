@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Events</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Playfair+Display&family=Ubuntu&display=swap');
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            /* background-color: rgba(133, 238, 243, 0.66); */
+            color: #000000;
+            background-image: url("https://media.istockphoto.com/id/1138286481/photo/light-teal-defocused-blurred-motion-abstract-background.webp?b=1&s=170667a&w=0&k=20&c=QT2Bne_LKwFzcYObQqQCvTPWZYA31Ul08_7bvhMwu74=");
+            background-size: cover;
+        }
+
+        section {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .centered {
+            text-align: center;
+        }
+
+        .section-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .section-item {
+            width: 48%;
+            margin-bottom: 20px;
+        }
+
+        .section-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            /* margin-left:px; */
+        }
+
+        .image-grid img:hover {
+            box-shadow: 0px 0px 20px aqua;
+        }
+
+        .image-grid img {
+            width: 350px;
+            height: 250px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-grid img:hover {
+            transform: scale(1.1);
+        }
+
+        h1,
+        h2 {
+            text-decoration: underline;
+            font-family: 'Playfair Display', serif;
+        }
+
+        a:hover {
+            color: aqua;
+        }
+
+        .box {
+            display: inline;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .box:hover {
+            transform: scale(1.1);
+            border: 1px solid black;
+            padding: 5px;
+            border-radius: 7px;
+            background-color: grey;
+        }
+
+        p {
+            font-family: 'Ubuntu', sans-serif;
+            line-height: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Club Events</h1>
+        <p>Welcome to our Club events page!</p>
+    </header>
+
+    <section class="centered">
+        <h2>Club Events Overview</h2>
+        <p>Welcome to the heart of campus life! Our Club Events page is a vibrant hub of activity, showcasing the
+            diverse interests and passions that make our university community unique. Explore the dynamic world of
+            student clubs, each offering a distinct flavor of excitement, learning, and social engagement.</p>
+        <p>From academic and professional development to hobbies, sports, and cultural pursuits, our club events cater
+            to a spectrum of interests. Whether you're looking to expand your knowledge, connect with like-minded
+            individuals, or simply unwind and have fun, there's a club event for everyone.</p>
+        <p>Check out the curated sections below to stay updated on upcoming events hosted by our clubs. Dive into the
+            energy of performances, competitions, workshops, and social gatherings that define the diverse tapestry of
+            our club community. Get ready to explore, connect, and make the most of your university experience through
+            the exciting world of club events!</p>
+    </section>
+
+
+
+    <section class="section-container">
+        <!-- Section 1 -->
+        <div class="section-item">
+            <img src="https://slideplayer.com/7566000/24/images/slide_1.jpg" alt="Event 1">
+            <h3>Entrepreneurship Summit - "InnoVenture India"</h3>
+            <p>"InnoVenture India" is a flagship event hosted by our Entrepreneurship Club, bringing together aspiring entrepreneurs, industry experts, and innovators. This summit is a platform for ideation, collaboration, and learning from successful startup journeys. From keynote speakers to interactive workshops and pitch sessions, "InnoVenture India" is an immersive experience designed to ignite the entrepreneurial spirit within our university community. Join us in exploring the future of business, innovation, and leadership.</p>
+        </div>
+
+        <!-- Section 2 -->
+        <div class="section-item">
+            <img src="https://youthincmag.com/wp-content/uploads/2022/01/IMG_7395-scaled.jpg" alt="Event 2">
+            <h3>Cultural Fest - "Melange Mania"</h3>
+            <p>"Melange Mania" is a celebration of cultural diversity, hosted by our Cultural Club. This vibrant fest showcases the rich tapestry of India's traditions through dance, music, art, and cuisine. From traditional performances to modern interpretations, "Melange Mania" is a sensory delight that invites students to immerse themselves in the colors, rhythms, and flavors of our diverse heritage. Join us for a cultural extravaganza that fosters unity, understanding, and a sense of pride in our collective identity.</p>
+        </div>
+
+        <div class="section-item">
+            <img src="https://media.licdn.com/dms/image/D4D05AQHKvHy1LHr7Hg/feedshare-thumbnail_720_1280/0/1699272406402?e=2147483647&v=beta&t=WHILHPNRm2eW8lznzCG1c7aKCrdX_tCmuixYK4QT4mg" alt="Event 3">
+            <h3>Tech Hackathon - "CodeCraft Challenge"</h3>
+            <p>Calling all tech enthusiasts to participate in the ultimate coding challenge - "CodeCraft Challenge," hosted by our Tech Club. This hackathon is a 24-hour sprint of innovation, problem-solving, and collaborative coding. Whether you're a seasoned coder or just starting out, "CodeCraft Challenge" offers a platform to showcase your skills, learn from industry mentors, and compete for exciting prizes. Join us for a day of coding camaraderie and tech-driven creativity.</p>
+        </div>
+
+        <div class="section-item">
+            <img src="https://i.scdn.co/image/ab67656300005f1f379a069b6ea98836a293bcdb" alt="Event 4">
+            <h3>Environmental Awareness Campaign - "Green Pulse"</h3>
+            <p>"Green Pulse" is an initiative led by our Environmental Club to raise awareness about sustainability and environmental issues. This campaign includes tree-planting drives, workshops on eco-friendly practices, and discussions on conservation efforts. Through "Green Pulse," the Environmental Club aims to inspire students to take active roles in preserving our planet. Join us in cultivating a greener campus and a more environmentally conscious community.</p>
+        </div>
+
+        <!-- Repeat for Sections 3 to 6 -->
+
+    </section>
+
+    <section class="image-grid">
+        <img src="https://i.ytimg.com/vi/cI-TMztfMkE/maxresdefault.jpg" alt="Image 1">
+        <img src="https://lusu.ca/resources/LUSU%20Albums/LUSU%20Logos/Clubs_LOGO.jpg" alt="Image 2">
+        <img src="https://www.lpu.in/campus_life/images/art-and-culture/arts-achieve/full/curtain-raiser-event.jpg" alt="Image 3">
+        <img src="https://www.lpu.in/campus_life/images/student-orgs/social/Lpu-Rotract-Club.jpg" alt="Image 4">
+        <img src="https://www.lpu.in/campus_life/images/student-orgs/literary-media-and-publications/LPU-FILM-CLUB.jpg" alt="Image 5">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4wgqhSRDifTqqloP-CatjeFTSpwVCD8_X2Lmg75aDg76th0mQM5_jMU1WyV3fO7wJe50&usqp=CAU" alt="Image 6">
+    </section>
+
+</body>
+
+</html>

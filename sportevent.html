@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Events</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Playfair+Display&family=Ubuntu&display=swap');
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            /* background-color: rgba(133, 238, 243, 0.66); */
+            color: #000000;
+            background-image: url("https://media.istockphoto.com/id/1138286481/photo/light-teal-defocused-blurred-motion-abstract-background.webp?b=1&s=170667a&w=0&k=20&c=QT2Bne_LKwFzcYObQqQCvTPWZYA31Ul08_7bvhMwu74=");
+            background-size: cover;
+        }
+
+        section {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .centered {
+            text-align: center;
+        }
+
+        .section-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .section-item {
+            width: 48%;
+            margin-bottom: 20px;
+        }
+
+        .section-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-left: 50px;
+        }
+
+        .image-grid img:hover {
+            box-shadow: 0px 0px 20px aqua;
+        }
+
+        .image-grid img {
+            width: 350px;
+            height: 250px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-grid img:hover {
+            transform: scale(1.1);
+        }
+
+        h1,
+        h2 {
+            text-decoration: underline;
+            font-family: 'Playfair Display', serif;
+        }
+
+        a:hover {
+            color: aqua;
+        }
+        .box{
+            display: inline;
+            transition: transform 0.3s ease-in-out;
+        }
+        .box:hover{
+            transform: scale(1.1);
+            border: 1px solid black;
+            padding: 5px;
+            border-radius: 7px;
+            background-color: grey;
+        }
+        p{
+            font-family: 'Ubuntu', sans-serif;
+            line-height: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Sports Events</h1>
+        <p>Welcome to our sports events page!</p>
+    </header>
+
+    <section class="centered">
+        <h2>Event Overview</h2>
+        <p>Welcome to the world of thrilling sports events! Our page is dedicated to bringing you the latest and
+            greatest in the world of sports. From heart-pounding competitions to awe-inspiring moments, we've got it all
+            covered for you.</p>
+        <p>Explore the sections below to learn more about some of the most exciting sports events happening around the
+            globe. Each section features a unique event, complete with captivating images and detailed information to
+            keep you in the loop.</p>
+        <p>Whether you're a passionate sports fan or just looking for some entertainment, you're sure to find something
+            that sparks your interest. Get ready to dive into the adrenaline-fueled world of sports!</p>
+    </section>
+
+
+    <section class="section-container">
+        <!-- Section 1 -->
+        <div class="section-item">
+            <img src="https://www.lpu.in/campus_life/images/sports/asian-games-2023-1.jpg" alt="Event 1">
+            <h3>LPU Vertos Shine Bright at the 19th Asian Games 2022</h3>
+            <p>In a resounding testament to their skill and dedication, the LPU Vertos have made India proud at the 19th
+                Asian Games 2022 in Hangzhou, People’s Republic of China. Their incredible journey was marked by a
+                series of spectacular victories that resonated across the nation, filling our hearts with immense pride
+                and joy.</p>
+            <div class="box">
+                <a href="https://happenings.lpu.in/lpu-vertos-shine-bright-at-the-19th-asian-games-2023/" target="_blank">Read more</a>
+            </div>
+        </div>
+
+        <!-- Section 2 -->
+        <div class="section-item">
+            <img src="https://www.lpu.in/campus_life/images/sports/silver-medal-at-para-athletics.jpg" alt="Event 2">
+            <h3>LPU Verto Secured Silver Medal at Para Athletics World Championships 2023!</h3>
+            <p>As India gears up for the Paralympics in 2024, these athletes’ dedication and success inspire hope and
+                pride among their fellow countrymen. Their journey exemplifies the heights that can be reached with
+                determination and talent, setting an example for aspiring athletes and showcasing the potential of para
+                sports on a global stage.</p>
+            <div class="box">
+                <a
+                    href="https://happenings.lpu.in/lpu-verto-secured-silver-medal-at-para-athletics-world-championships-2023/" target="_blank">Read
+                    More</a>
+            </div>
+        </div>
+
+        <div class="section-item">
+            <img src="https://www.lpu.in/campus_life/images/sports/neeraj-2023.jpg" alt="Event 3">
+            <h3>LPU Student Neeraj Chopra Clinches Gold at Doha Diamond League 2023</h3>
+            <p>India’s Golden Boy and our proud student, Neeraj Chopra has added another feather to his cap by winning
+                the Javelin event at the Doha Diamond League 2023. The athlete made a massive throw of 88.67m in his
+                first attempt, securing him the top spot at the prestigious event.</p>
+            <div class="box">
+                <a
+                    href="https://happenings.lpu.in/lpu-student-neeraj-chopra-clinches-gold-at-doha-diamond-league-2023/" target="_blank">Read
+                    More</a>
+            </div>
+        </div>
+
+        <div class="section-item">
+            <img src="https://www.lpu.in/campus_life/images/sports/archery-recurve.jpg" alt="Event 4">
+            <h3>LPU Archery Recurve Men’s Team Strike Gold at Khelo India University Games 2023</h3>
+            <p>If you have been following the Happenings page recently, you must have come across news regarding the
+                Khelo India University Games (KIUG) 2023 which Lovely Professional University has been an integral part
+                of. LPU, with a massive number of 165 students has participated in 14 games that lasted from 25th May
+                2023 to 3rd June 2023. The 10-day long event was held in the state of Uttar Pradesh in cities like
+                Varanasi, Lucknow, Gorakhpur, and Greater Noida and some events like shooting were held in New Delhi.
+            </p>
+            <div class="box">
+                <a
+                    href="https://happenings.lpu.in/lpu-archery-recurve-mens-team-strike-gold-at-khelo-india-university-games-2023/" target="_blank">Read
+                    More</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="image-grid">
+        <img src="https://www.lpu.in/campus_life/images/sports/new/5.jpg" alt="Image 1">
+        <img src="https://www.lpu.in/campus_life/images/sports/new/1.jpg" alt="Image 2">
+        <img src="https://www.lpu.in/campus_life/images/sports/new/3.jpg" alt="Image 3">
+        <img src="https://www.lpu.in/campus_life/images/sports/new/4.jpg" alt="Image 4">
+        <img src="https://www.lpu.in/campus_life/images/sports/new/6.jpg" alt="Image 5">
+        <img src="https://www.lpu.in/campus_life/images/sports/asian-games-2023-2.jpg" alt="Image 6">
+        <img src="https://www.lpu.in/campus_life/images/sports/archery-recurve.jpg" alt="Image 7">
+        <img src="https://www.lpu.in/campus_life/images/sports/parveen-hooda.jpg" alt="Image 8">
+    </section>
+
+</body>
+
+</html>

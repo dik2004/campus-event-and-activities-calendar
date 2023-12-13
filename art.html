@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Events</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Playfair+Display&family=Ubuntu&display=swap');
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            /* background-color: rgba(133, 238, 243, 0.66); */
+            color: #000000;
+            background-image: url("https://media.istockphoto.com/id/1138286481/photo/light-teal-defocused-blurred-motion-abstract-background.webp?b=1&s=170667a&w=0&k=20&c=QT2Bne_LKwFzcYObQqQCvTPWZYA31Ul08_7bvhMwu74=");
+            background-size: cover;
+        }
+
+        section {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .centered {
+            text-align: center;
+        }
+
+        .section-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .section-item {
+            width: 48%;
+            margin-bottom: 20px;
+        }
+
+        .section-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-left: 50px;
+        }
+
+        .image-grid img:hover {
+            box-shadow: 0px 0px 20px aqua;
+        }
+
+        .image-grid img {
+            width: 350px;
+            height: 250px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-grid img:hover {
+            transform: scale(1.1);
+        }
+
+        h1,
+        h2 {
+            text-decoration: underline;
+            font-family: 'Playfair Display', serif;
+        }
+
+        a:hover {
+            color: aqua;
+        }
+
+        .box {
+            display: inline;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .box:hover {
+            transform: scale(1.1);
+            border: 1px solid black;
+            padding: 5px;
+            border-radius: 7px;
+            background-color: grey;
+        }
+
+        p {
+            font-family: 'Ubuntu', sans-serif;
+            line-height: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Arts Events</h1>
+        <p>Welcome to our Arts events page!</p>
+    </header>
+
+    <section class="centered">
+        <h2>Arts Event Overview</h2>
+        <p>Welcome to a world where creativity knows no bounds! Our Arts Events page is a canvas of expression,
+            showcasing the incredible talent and diversity within the artistic community. Immerse yourself in a spectrum
+            of visual arts, performances, and interactive experiences that ignite the imagination.</p>
+        <p>Explore the curated sections below, each dedicated to a unique facet of the arts. From captivating
+            exhibitions and live performances to hands-on workshops, our events celebrate the power of artistic
+            expression to inspire, provoke thought, and foster connections.</p>
+        <p>Whether you're an art enthusiast, a performer, or someone looking to explore new forms of creativity, our
+            Arts Events page has something for everyone. Join us in celebrating the transformative and boundless world
+            of the arts!</p>
+    </section>
+
+
+
+    <section class="section-container">
+        <!-- Section 1 -->
+        <div class="section-item">
+            <img src="https://assets.isu.pub/document-structure/230913204804-c8b3cb5688798b260310b51491934da7/v1/9ca19f0cb77584b6555a7325b2e6b42a.jpeg" alt="Event 1">
+            <h3>Art Exhibition - "Palette Perspectives"</h3>
+            <p>"Palette Perspectives" invites you to immerse yourself in a visual feast of creativity. This art exhibition showcases the diverse talents of students, featuring paintings, sculptures, and mixed-media works that reflect unique perspectives on culture, society, and personal experiences. Join us as we transform our campus into a vibrant gallery, celebrating the rich tapestry of artistic expression within our university community.</p>
+        </div>
+
+        <!-- Section 2 -->
+        <div class="section-item">
+            <img src="https://devdiscourse.blob.core.windows.net/devnews/17_07_2023_17_13_06_3798696.png" alt="Event 2">
+            <h3>Cultural Heritage Festival - "Vibrant Traditions"</h3>
+            <p>Experience the rich cultural tapestry of India at "Vibrant Traditions," a festival that brings together traditional arts, crafts, and performances. From classical dance and music to folk art and traditional crafts, this event is a celebration of India's diverse heritage. Immerse yourself in the colors, rhythms, and stories that define our cultural identity. "Vibrant Traditions" is a journey through time, connecting generations and fostering a deeper appreciation for our roots.</p>
+        </div>
+
+        <div class="section-item">
+            <img src="https://gumlet.assettype.com/homegrown%2Fimport%2F46227-Colectivo-Liquado-%2B-AlfAlfa.jpg" alt="Event 3">
+            <h3>Street Art Festival - "Urban Canvas"</h3>
+            <p>"Urban Canvas" turns our university campus into a dynamic and colorful art gallery. This street art festival invites students to unleash their creativity on walls, pavements, and public spaces, transforming the mundane into vibrant masterpieces. From graffiti to mural painting, witness the city come alive with artistic expression. "Urban Canvas" is not just an event; it's a celebration of the power of public art to inspire, provoke, and unite.</p>
+        </div>
+
+        <div class="section-item">
+            <img src="https://image.isu.pub/180424054301-1b81fa06dcd81a8596ebac74cb1591b3/jpg/page_1_thumb_large.jpg" alt="Event 4">
+            <h3>Sculpture Symposium - "Form and Flux"</h3>
+            <p>"Form and Flux" invites you to witness the transformative power of three-dimensional art at our Sculpture Symposium. This event brings together talented sculptors who will craft awe-inspiring pieces using various materials, from stone and metal to unconventional mediums. As each sculpture takes shape, it tells a unique story, exploring themes of nature, identity, and the human experience. Join us in the open-air gallery as the campus becomes a dynamic space for creativity, encouraging dialogue and appreciation for the art of sculpting. "Form and Flux" is an immersive experience where static forms come to life, challenging perceptions and evoking emotions through the language of sculpture.</p>
+        </div>
+
+        <!-- Repeat for Sections 3 to 6 -->
+
+    </section>
+
+    <section class="image-grid">
+        <img src="https://i.pinimg.com/550x/80/89/91/808991f512d10903673e06a0076e8edf.jpg" alt="Image 1">
+        <img src="https://www.shutterstock.com/image-photo/back-view-african-male-guest-600nw-2108002526.jpg" alt="Image 2">
+        <img src="https://www.shutterstock.com/image-photo/parma-italy-march-2022-people-600nw-2173600117.jpg" alt="Image 3">
+        <img src="https://www.indiaart.com/images/khula-aasmaan/exhibitions/24.webp" alt="Image 4">
+        <img src="https://www.lpu.in/campus_life/images/art-and-culture/arts-achieve/full/aiu-national-qawwali-competition.jpg" alt="Image 5">
+        <img src="https://images.tribuneindia.com/cms/gall_content/2019/5/2019_5$largeimg02_Thursday_2019_081631060.jpg" alt="Image 6">
+        <img src="https://baltic.art/images/uploads/c2d550d42f566444895b24cecd6b09de.jpg" alt="Image 7">
+        <img src="https://static.tnn.in/thumb/msid-97431746,thumbsize-96736,width-1280,height-720,resizemode-75/97431746.jpg" alt="Image 8">
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Events</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Playfair+Display&family=Ubuntu&display=swap');
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            /* background-color: rgba(133, 238, 243, 0.66); */
+            color: #000000;
+            background-image: url("https://png.pngtree.com/background/20230306/original/pngtree-cyan-light-background-with-white-faded-area-stock-clipart-royalty-free-picture-image_2092439.jpg");
+            background-size: cover;
+        }
+
+        section {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .centered {
+            text-align: center;
+        }
+
+        .section-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .section-item {
+            width: 48%;
+            margin-bottom: 20px;
+        }
+
+        .section-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-left: 50px;
+        }
+
+        .image-grid img:hover {
+            box-shadow: 0px 0px 20px rgb(0, 157, 255);
+        }
+
+        .image-grid img {
+            width: 350px;
+            height: 250px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-grid img:hover {
+            transform: scale(1.1);
+        }
+
+        h1,
+        h2 {
+            text-decoration: none;
+            font-family: 'Playfair Display', serif;
+        }
+
+        a:hover {
+            color: aqua;
+        }
+
+        .box {
+            display: inline;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .box:hover {
+            transform: scale(1.1);
+            border: 1px solid black;
+            padding: 5px;
+            border-radius: 7px;
+            background-color: grey;
+        }
+
+        p {
+            font-family: 'Ubuntu', sans-serif;
+            line-height: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Music Events</h1>
+        <p>Welcome to our Music events page!</p>
+    </header>
+
+    <section class="centered">
+        <h2>Music Event Overview</h2>
+        <p>Welcome to the ultimate destination for music enthusiasts! Our music events page is your ticket to a world of
+            rhythm, melody, and unforgettable performances. Get ready to immerse yourself in the magic of live music,
+            where every note tells a story and every beat moves your soul.</p>
+        <p>Explore the sections below to discover a diverse range of music events spanning genres from rock and pop to
+            jazz and electronic. Each section features a unique event, accompanied by vibrant images and in-depth
+            details that capture the essence of the musical experience.</p>
+        <p>Whether you're a die-hard fan of a particular genre or open to discovering new sounds, our page has something
+            for everyone. From intimate acoustic sets to massive music festivals, join us on a journey through the
+            dynamic and ever-evolving world of music events!</p>
+    </section>
+
+
+
+    <section class="section-container">
+        <!-- Section 1 -->
+        <div class="section-item">
+            <img src="https://i.ytimg.com/vi/degEuJfwYaY/maxresdefault.jpg" alt="Event 1">
+            <h3>Electronic Dance Music (EDM) Night:</h3>
+            <p>Get ready to dance the night away at our EDM Night! Immerse yourself in pulsating beats, mesmerizing light shows, and a DJ lineup that will keep the energy high. Whether you're a seasoned raver or just curious about the electronic music scene, this event is all about creating an electric atmosphere where everyone can let loose and embrace the power of the drop. Join us for a night of non-stop EDM vibes and unforgettable moments.</p>
+        </div>
+
+        <!-- Section 2 -->
+        <div class="section-item">
+            <img src="https://qph.cf2.quoracdn.net/main-qimg-c0b79d3e8fc0c37caa7ce7f2fe2c99ae-lq" alt="Event 2">
+            <h3>Multicultural Music Festival:</h3>
+            <p>Embark on a global musical journey at our Multicultural Music Festival. This event celebrates diversity through the universal language of music. Experience a fusion of genres, instruments, and traditions as student performers bring you the vibrant sounds of cultures from around the world. From traditional folk tunes to contemporary beats, this festival is a testament to the rich tapestry of global musical expression.</p>
+        </div>
+
+        <div class="section-item">
+            <img src="https://media.licdn.com/dms/image/D4D22AQHnYgV2nI3-0g/feedshare-shrink_800/0/1699335993192?e=1702512000&v=beta&t=As3Xp1V2m-zkI-j1VULcsbMCJvuvJ9cgsaa-IjJugjM" alt="Event-3">
+            <h3>Coke Studio Unplugged Sessions:</h3>
+            <p>Step into the intimate world of music with Coke Studio Unplugged Sessions. In this stripped-down setting, artists showcase their raw talent, offering soulful renditions of popular tracks and hidden gems. The focus is on live, acoustic performances that bring out the essence of each song. Join us for an authentic and unfiltered musical experience that transcends genres and resonates with the true spirit of Coke Studio.</p>
+        </div>
+
+        <div class="section-item">
+            <img src="https://www.knowafest.com/files/uploads/YV%20FB%20Cover%20Final-01-2020010716.png" alt="Event 4">
+            <h3>Youth Vibe Unplugged Sessions:</h3>
+            <p>Dive into the soul-stirring rhythms of Youth Vibe Unplugged Sessions. This event captures the essence of raw, acoustic talent, featuring artists who strip down their music to its core. With an intimate and laid-back atmosphere, Youth Vibe Unplugged Sessions promise a genuine connection between the artists and the audience. Join us for a night of unfiltered melodies, creating an authentic and unforgettable musical experience.</p>
+        </div>
+
+        <!-- Repeat for Sections 3 to 6 -->
+
+    </section>
+
+    <section class="image-grid">
+        <img src="https://www.lpu.in/campus_life/images/coke.jpg" alt="Image 1">
+        <img src="https://www.lpu.in/campus_life/images/campus-events/full/11.jpg" alt="Image 2">
+        <img src="https://www.lpu.in/campus_life/images/gaana-campus-connect.jpg" alt="Image 3">
+        <img src="https://www.lpu.in/campus_life/images/new-silk.jpg" alt="Image 4">
+        <img src="https://www.lpu.in/campus_life/images/star-voice-lpu.jpg" alt="Image 5">
+        <img src="https://www.lpu.in/campus_life/images/ankit-tiwari.jpg" alt="Image 6">
+        <img src="https://www.lpu.in/campus_life/images/qismat.jpg" alt="Image 7">
+        <img src="https://www.lpu.in/campus_life/images/ranbir-kapoor.jpg" alt="Image 8">
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      position: relative;
+      z-index: 1;
+    }
+
+    .background-container {
+      background-image: url("https://www.netigate.net/wp-content/uploads/2017/04/shutterstock_611290274.jpg");
+      background-size: cover;
+      filter: blur(5px);
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+
+    h2 {
+      text-align: center;
+      text-decoration: underline;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      background-color: #4caf50;
+      color: rgb(172, 28, 28);
+      cursor: pointer;
+    }
+
+    textarea {
+      height: 100px;
+    }
+
+    .rating {
+      display: flex;
+      font-size: 18px;
+      margin: 10px;
+    }
+
+    .rating label {
+      margin-right: 80px; /* Adjusted spacing for the labels */
+    }
+  </style>
+</head>
+<body>
+  <div class="background-container"></div>
+
+  <form action="#" method="post">
+    <h2>Feedback Form</h2>
+
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required>
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="mobileNumber">Mobile Number:</label>
+    <input type="tel" id="mobileNumber" name="mobileNumber" required>
+
+    <label for="feedback">Feedback:</label>
+    <textarea id="feedback" name="feedback" required></textarea>
+
+    <label for="rating">Rating:</label>
+    <div class="rating">
+      <input type="radio" id="rating5" name="rating" value="5">
+      <label for="rating5">1</label>
+      <input type="radio" id="rating4" name="rating" value="4">
+      <label for="rating4">2</label>
+      <input type="radio" id="rating3" name="rating" value="3">
+      <label for="rating3">3</label>
+      <input type="radio" id="rating2" name="rating" value="2">
+      <label for="rating2">4</label>
+      <input type="radio" id="rating1" name="rating" value="1">
+      <label for="rating1">5</label>
+    </div>
+
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
